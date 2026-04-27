@@ -43,8 +43,8 @@ export default function Header() {
       <div className={`bg-cream-50/95 backdrop-blur-sm border-b transition-shadow ${scrolled ? "shadow-warm border-bone-200" : "border-transparent"}`}>
         <div className="container h-16 md:h-20 flex items-center justify-between gap-4">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-3 shrink-0" aria-label="Boston Coffee Cake home">
-            <img src={logo} alt="The Original Boston Coffee Cake — Let us do all the work, so you can take all the credit" className="h-12 md:h-14 w-auto object-contain" />
+          <a href="#" className="flex items-center shrink-0 -my-2" aria-label="Boston Coffee Cake home">
+            <img src={logo} alt="The Original Boston Coffee Cake — Let us do all the work, so you can take all the credit" className="h-20 md:h-28 w-auto object-contain" />
           </a>
 
           {/* Nav (desktop) */}
