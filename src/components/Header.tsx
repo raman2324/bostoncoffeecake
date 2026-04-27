@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Search, User, ShoppingBag, Menu, X, ChevronDown } from "lucide-react";
+import logo from "@/assets/logo-boston-coffee-cake.png";
 
 const shopColumns = [
   { title: "Coffee Cakes", items: ["Original Cinnamon Walnut", "Marble Madness", "Caramel Apple Harvest", "Blueberry Blizzard", "Cranberry Orange Walnut"] },
