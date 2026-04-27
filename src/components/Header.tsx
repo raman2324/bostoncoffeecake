@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Search, User, ShoppingBag, Menu, X, ChevronDown } from "lucide-react";
+import logo from "@/assets/logo-boston-coffee-cake.png";
 
 const shopColumns = [
   { title: "Coffee Cakes", items: ["Original Cinnamon Walnut", "Marble Madness", "Caramel Apple Harvest", "Blueberry Blizzard", "Cranberry Orange Walnut"] },
@@ -43,11 +44,7 @@ export default function Header() {
         <div className="container h-16 md:h-20 flex items-center justify-between gap-4">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 shrink-0" aria-label="Boston Coffee Cake home">
-            <div className="w-10 h-10 md:w-11 md:h-11 rounded-sm bg-navy-900 flex items-center justify-center text-gold-500 font-serif italic text-xl md:text-2xl leading-none">B</div>
-            <div className="leading-tight hidden sm:block">
-              <div className="font-serif text-navy-900 text-lg md:text-xl tracking-tight">Boston Coffee Cake</div>
-              <div className="eyebrow !text-[10px] !tracking-[0.22em] mt-0.5">Since 1996 · North Andover, MA</div>
-            </div>
+            <img src={logo} alt="The Original Boston Coffee Cake — Let us do all the work, so you can take all the credit" className="h-12 md:h-14 w-auto object-contain" />
           </a>
 
           {/* Nav (desktop) */}
